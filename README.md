@@ -9,13 +9,13 @@ Two experiment have been done to know how change the accuracy with LH positions.
 
 1. Experiment with LH look in the same direction.
 
-![](images/experiment_1.png)
+![](images/experiment_1.PNG)
 
 data_Kalman_* and data_Madgwick_* are two types of data taken, as showing on the picture, along a line. Filter of LH data use a mean of 4 last data and IMU position is reset at 30 Hz.
 
 2. Experiment with LH look each other.
 
-![](images/experiment_2.png)
+![](images/experiment_2.PNG)
 
 * Along an almost line (Data ? Data_2 ? Data_3)
 	* Oscillations at different amplitudes 
